@@ -23,6 +23,7 @@ main {
   padding: 2rem;
 }
 
+/* ✅ 학생 연습 링크 스타일 */
 #practice h2 {
   text-align: center;
 }
@@ -48,5 +49,5 @@ main {
 }
 
 .student-links li a:hover {
-  background-color: #333;
+  background-color: #E64A19;
 }
