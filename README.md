@@ -1,15 +1,13 @@
-# 🐢 CODE 동아리 웹 프로젝트 – Turtle Team
+# 💚 CODE 동아리 웹 프로젝트 – Turtle Team
 
-## 소개
-천천히 가더라도 완벽하게! 우리는 거북이팀입니다.
+## ✍️ 연습 영역 (학생 개별 수정 연습)
 
-## 목표
-- 꼼꼼한 협업
-- Git 기초 탄탄히
+| 이름 | 링크 |
+|------|------|
+| student1 | https://juhyeon0906.github.io/2025-SM-CODE-turtle/students/student1/ |
+| student2 | https://juhyeon0906.github.io/2025-SM-CODE-turtle/students/student2/ |
+| student3 | https://juhyeon0906.github.io/2025-SM-CODE-turtle/students/student3/ |
+| student4 | https://juhyeon0906.github.io/2025-SM-CODE-turtle/students/student4/ |
+| student5 | https://juhyeon0906.github.io/2025-SM-CODE-turtle/students/student5/ |
 
-## 기술 스택
-HTML, CSS, JS, Git, Vercel
-
-## 규칙
-- 브랜치명: `turtle/기능명`
-- 작고 자주 커밋하기
+각자 폴더 내부의 index.html, style.css 파일을 수정하여 연습하세요!
