@@ -7,7 +7,50 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>2502 김민경</h1>
-  <p>react 캘린더, 매칭 알고리즘, 게시판 기능</p>
+  <h1>student2의 연습 페이지입니다!</h1>
+  <p>이 파일을 자유롭게 수정해보세요.</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상호작용 버튼</title>
+    <style>
+        /* 버튼 스타일 */
+        #actionButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        /* 버튼 호버 시 색상 변경 */
+        #actionButton:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 버튼 생성 -->
+    <button id="actionButton">클릭하세요</button>
+
+    <script>
+        // 버튼 요소 가져오기
+        const button = document.getElementById("actionButton");
+        
+        // 버튼 클릭 이벤트 추가
+        button.addEventListener("click", function() {
+            // 배경색 변경
+            document.body.style.backgroundColor =
+                document.body.style.backgroundColor === "lightgray" ? "white" : "lightgray";
+        });
+    </script>
 </body>
 </html>
