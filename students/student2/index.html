@@ -54,3 +54,26 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼 클릭 이벤트</title>
+    <style>
+        body { text-align: center; padding: 50px; }
+        button { font-size: 20px; padding: 10px 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>버튼을 클릭하면 배경색이 변경됩니다!</h1>
+    <button onclick="changeColor()">클릭하세요</button>
+
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor = 
+                document.body.style.backgroundColor === 'lightblue' ? 'white' : 'lightblue';
+        }
+    </script>
+</body>
+</html>
